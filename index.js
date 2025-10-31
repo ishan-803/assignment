@@ -10,8 +10,6 @@ const PORT = 4000;
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
-app.use(morgan('dev'));
-
 mongoose.connect('mongodb://localhost:27017/file', {
 
 });
